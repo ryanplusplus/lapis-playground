@@ -1,3 +1,15 @@
+# Lapis/OpenResty/nginx stuff
+client_body_temp
+fastcgi_temp
+logs
+proxy_temp
+scgi_temp
+uwsgi_temp
+nginx.conf.compiled
+
+# Install rocks
+lua_modules
+
 # Compiled Lua sources
 luac.out
 
@@ -38,4 +50,3 @@ luac.out
 *.i*86
 *.x86_64
 *.hex
-

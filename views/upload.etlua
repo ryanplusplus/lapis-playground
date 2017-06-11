@@ -1,0 +1,9 @@
+<form action="/upload" method="post" enctype="multipart/form-data">
+  <label for="project">Project</label>
+  <input type="file" name="project" id="project" directory mozDirectory webkitDirectory />
+  <label for="framework">Framework</label>
+  <input type="file" name="framework" id="framework" />
+  <label for="data">Data</label>
+  <input type="file" name="data" id="data" />
+  <input type="submit" name="submit" value="Submit" />
+</form>
